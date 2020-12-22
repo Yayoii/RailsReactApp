@@ -1,0 +1,615 @@
+Started GET "/helio/index" for ::1 at 2020-12-18 13:10:16 +0900
+  [1m[35m (8.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/helio/index"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/hello/index" for ::1 at 2020-12-18 13:10:39 +0900
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/helio/index" for ::1 at 2020-12-18 13:10:43 +0900
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/helio/index"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+[Webpacker] Compiled all packs in /Users/naruseyayoi/RailsReactApp/public/packs
+[Webpacker] Hash: a04649fd5e40aaa3921a
+Version: webpack 4.44.2
+Time: 6802ms
+Built at: 12/18/2020 1:10:48 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-210978220f71e23c6652.js    1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-210978220f71e23c6652.js.map   1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint hello_react = js/hello_react-210978220f71e23c6652.js js/hello_react-210978220f71e23c6652.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.06 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered hello/index.html.erb within layouts/application (Duration: 9016.5ms | Allocations: 54199)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9099ms (Views: 9097.8ms | ActiveRecord: 0.0ms | Allocations: 71044)
+
+
+Started GET "/hello/index" for ::1 at 2020-12-18 13:10:51 +0900
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered hello/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 2130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 5865)
+
+
+Started GET "/hello/index" for ::1 at 2020-12-18 14:43:30 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 5ed8a355814f8b8c17d4
+Version: webpack 4.44.2
+Time: 1232ms
+Built at: 12/18/2020 2:43:33 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-fc8698267ef9dec82a99.js   7.62 KiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-fc8698267ef9dec82a99.js.map   3.53 KiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint hello_react = js/hello_react-fc8698267ef9dec82a99.js js/hello_react-fc8698267ef9dec82a99.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 3.71 KiB {hello_react} [built] [failed] [1 error]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+ERROR in ./app/javascript/packs/hello_react.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/naruseyayoi/RailsReactApp/app/javascript/packs/hello_react.jsx: Unexpected reserved word 'let' (10:2)
+
+   8 | 
+   9 | const Calc = props => (
+> 10 |   let n = props.number;
+     |   ^
+  11 |   let total = 0;
+  12 |   for (let i = 0;i <= n;i++) {
+  13 |     total += i;
+    at Object._raise (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:748:17)
+    at Object.raiseWithData (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.raise (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:735:17)
+    at Object.checkReservedWord (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11388:14)
+    at Object.parseIdentifierName (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11350:12)
+    at Object.parseIdentifier (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11317:23)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10408:27)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:4763:20)
+    at Object.parseExprSubscripts (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10150:23)
+    at Object.parseUpdate (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10130:21)
+    at Object.parseMaybeUnary (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10119:17)
+    at Object.parseExprOps (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9989:23)
+    at Object.parseMaybeConditional (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9963:23)
+    at Object.parseMaybeAssign (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9926:21)
+    at /Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9893:39
+    at Object.allowInAnd (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11547:12)
+    at Object.parseMaybeAssignAllowIn (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9893:17)
+    at Object.parseParenAndDistinguishExpression (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10752:28)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10470:21)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:4763:20)
+    at Object.parseExprSubscripts (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10150:23)
+    at Object.parseUpdate (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10130:21)
+    at Object.parseMaybeUnary (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10119:17)
+    at Object.parseExprOps (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9989:23)
+    at Object.parseMaybeConditional (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9963:23)
+    at Object.parseMaybeAssign (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9926:21)
+    at Object.parseFunctionBody (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11214:24)
+    at Object.parseArrowExpression (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11193:10)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10428:25)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:4763:20)
+
+  Rendered hello/index.html.erb within layouts/application (Duration: 3163.6ms | Allocations: 3201)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3179ms (Views: 3178.0ms | ActiveRecord: 0.0ms | Allocations: 7002)
+
+
+Started GET "/hello/index" for ::1 at 2020-12-18 14:43:47 +0900
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 5ed8a355814f8b8c17d4
+Version: webpack 4.44.2
+Time: 810ms
+Built at: 12/18/2020 2:43:49 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-fc8698267ef9dec82a99.js   7.62 KiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-fc8698267ef9dec82a99.js.map   3.53 KiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint hello_react = js/hello_react-fc8698267ef9dec82a99.js js/hello_react-fc8698267ef9dec82a99.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 3.71 KiB {hello_react} [built] [failed] [1 error]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+ERROR in ./app/javascript/packs/hello_react.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/naruseyayoi/RailsReactApp/app/javascript/packs/hello_react.jsx: Unexpected reserved word 'let' (10:2)
+
+   8 | 
+   9 | const Calc = props => (
+> 10 |   let n = props.number;
+     |   ^
+  11 |   let total = 0;
+  12 |   for (let i = 0;i <= n;i++) {
+  13 |     total += i;
+    at Object._raise (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:748:17)
+    at Object.raiseWithData (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.raise (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:735:17)
+    at Object.checkReservedWord (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11388:14)
+    at Object.parseIdentifierName (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11350:12)
+    at Object.parseIdentifier (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11317:23)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10408:27)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:4763:20)
+    at Object.parseExprSubscripts (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10150:23)
+    at Object.parseUpdate (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10130:21)
+    at Object.parseMaybeUnary (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10119:17)
+    at Object.parseExprOps (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9989:23)
+    at Object.parseMaybeConditional (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9963:23)
+    at Object.parseMaybeAssign (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9926:21)
+    at /Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9893:39
+    at Object.allowInAnd (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11547:12)
+    at Object.parseMaybeAssignAllowIn (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9893:17)
+    at Object.parseParenAndDistinguishExpression (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10752:28)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10470:21)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:4763:20)
+    at Object.parseExprSubscripts (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10150:23)
+    at Object.parseUpdate (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10130:21)
+    at Object.parseMaybeUnary (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10119:17)
+    at Object.parseExprOps (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9989:23)
+    at Object.parseMaybeConditional (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9963:23)
+    at Object.parseMaybeAssign (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9926:21)
+    at Object.parseFunctionBody (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11214:24)
+    at Object.parseArrowExpression (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11193:10)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10428:25)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:4763:20)
+
+  Rendered hello/index.html.erb within layouts/application (Duration: 2475.9ms | Allocations: 3197)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2485ms (Views: 2483.8ms | ActiveRecord: 0.0ms | Allocations: 7000)
+
+
+Started GET "/hello/index" for ::1 at 2020-12-18 14:47:22 +0900
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 5ed8a355814f8b8c17d4
+Version: webpack 4.44.2
+Time: 865ms
+Built at: 12/18/2020 2:47:24 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-fc8698267ef9dec82a99.js   7.62 KiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-fc8698267ef9dec82a99.js.map   3.53 KiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint hello_react = js/hello_react-fc8698267ef9dec82a99.js js/hello_react-fc8698267ef9dec82a99.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 3.71 KiB {hello_react} [built] [failed] [1 error]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+ERROR in ./app/javascript/packs/hello_react.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/naruseyayoi/RailsReactApp/app/javascript/packs/hello_react.jsx: Unexpected reserved word 'let' (10:2)
+
+   8 | 
+   9 | const Calc = props => (
+> 10 |   let n = props.number;
+     |   ^
+  11 |   let total = 0;
+  12 |   for (let i = 0;i <= n;i++) {
+  13 |     total += i;
+    at Object._raise (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:748:17)
+    at Object.raiseWithData (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.raise (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:735:17)
+    at Object.checkReservedWord (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11388:14)
+    at Object.parseIdentifierName (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11350:12)
+    at Object.parseIdentifier (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11317:23)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10408:27)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:4763:20)
+    at Object.parseExprSubscripts (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10150:23)
+    at Object.parseUpdate (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10130:21)
+    at Object.parseMaybeUnary (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10119:17)
+    at Object.parseExprOps (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9989:23)
+    at Object.parseMaybeConditional (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9963:23)
+    at Object.parseMaybeAssign (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9926:21)
+    at /Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9893:39
+    at Object.allowInAnd (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11547:12)
+    at Object.parseMaybeAssignAllowIn (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9893:17)
+    at Object.parseParenAndDistinguishExpression (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10752:28)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10470:21)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:4763:20)
+    at Object.parseExprSubscripts (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10150:23)
+    at Object.parseUpdate (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10130:21)
+    at Object.parseMaybeUnary (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10119:17)
+    at Object.parseExprOps (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9989:23)
+    at Object.parseMaybeConditional (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9963:23)
+    at Object.parseMaybeAssign (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:9926:21)
+    at Object.parseFunctionBody (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11214:24)
+    at Object.parseArrowExpression (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:11193:10)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:10428:25)
+    at Object.parseExprAtom (/Users/naruseyayoi/RailsReactApp/node_modules/@babel/parser/lib/index.js:4763:20)
+
+  Rendered hello/index.html.erb within layouts/application (Duration: 2373.0ms | Allocations: 3197)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2393ms (Views: 2392.3ms | ActiveRecord: 0.0ms | Allocations: 6985)
+
+
+Started GET "/hello/index" for ::1 at 2020-12-18 15:03:42 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/naruseyayoi/RailsReactApp/public/packs
+[Webpacker] Hash: ff05497ac6faf63dd808
+Version: webpack 4.44.2
+Time: 1581ms
+Built at: 12/18/2020 3:03:45 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-4663cd96cf839324676a.js    1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-4663cd96cf839324676a.js.map   1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint hello_react = js/hello_react-4663cd96cf839324676a.js js/hello_react-4663cd96cf839324676a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.77 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered hello/index.html.erb within layouts/application (Duration: 3119.7ms | Allocations: 3284)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3129ms (Views: 3128.1ms | ActiveRecord: 0.0ms | Allocations: 7086)
+
+
+Started GET "/hello/index" for ::1 at 2020-12-18 15:04:42 +0900
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/naruseyayoi/RailsReactApp/public/packs
+[Webpacker] Hash: b1fd70d71f3707c6c11d
+Version: webpack 4.44.2
+Time: 1834ms
+Built at: 12/18/2020 3:04:46 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-b7d0c8fa4ce3681a92cd.js    1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-b7d0c8fa4ce3681a92cd.js.map   1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint hello_react = js/hello_react-b7d0c8fa4ce3681a92cd.js js/hello_react-b7d0c8fa4ce3681a92cd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.77 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered hello/index.html.erb within layouts/application (Duration: 3474.7ms | Allocations: 3282)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3486ms (Views: 3484.9ms | ActiveRecord: 0.0ms | Allocations: 7074)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateData (20201218062327)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "data" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" text, "mail" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201218062327"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-18 06:25:36.904094"], ["updated_at", "2020-12-18 06:25:36.904094"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDatum Create (1.2ms)[0m  [1m[32mINSERT INTO "data" ("id", "name", "mail", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["name", "Taro"], ["mail", "taro@yamada"], ["created_at", "2020-12-18 06:52:05.147607"], ["updated_at", "2020-12-18 06:52:05.147607"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDatum Create (0.4ms)[0m  [1m[32mINSERT INTO "data" ("id", "name", "mail", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 2], ["name", "Hanako"], ["mail", "hanako@flower"], ["created_at", "2020-12-18 06:52:05.153335"], ["updated_at", "2020-12-18 06:52:05.153335"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDatum Create (0.4ms)[0m  [1m[32mINSERT INTO "data" ("id", "name", "mail", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 3], ["name", "Sachiko"], ["mail", "sachiko@happy"], ["created_at", "2020-12-18 06:52:05.160264"], ["updated_at", "2020-12-18 06:52:05.160264"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/data/index" for ::1 at 2020-12-18 17:08:33 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/naruseyayoi/RailsReactApp/public/packs
+[Webpacker] Hash: 7b545c6985ce68587084
+Version: webpack 4.44.2
+Time: 1608ms
+Built at: 12/18/2020 5:08:37 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js   124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map   139 KiB  application  [emitted] [dev]        application
+     js/dummy_data-38f2581e9257772e1c82.js   1.1 MiB   dummy_data  [emitted] [immutable]  dummy_data
+ js/dummy_data-38f2581e9257772e1c82.js.map  1.27 MiB   dummy_data  [emitted] [dev]        dummy_data
+    js/hello_react-b7d0c8fa4ce3681a92cd.js   1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-b7d0c8fa4ce3681a92cd.js.map  1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  1.01 KiB               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint dummy_data = js/dummy_data-38f2581e9257772e1c82.js js/dummy_data-38f2581e9257772e1c82.js.map
+Entrypoint hello_react = js/hello_react-b7d0c8fa4ce3681a92cd.js js/hello_react-b7d0c8fa4ce3681a92cd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/dummy_data.jsx] 1.79 KiB {dummy_data} [built]
+[./app/javascript/packs/hello_react.jsx] 1.77 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered data/index.html.erb within layouts/application (Duration: 3290.0ms | Allocations: 3596)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3472ms (Views: 3435.6ms | ActiveRecord: 0.0ms | Allocations: 22731)
+
+
+Started GET "/data/ajax" for ::1 at 2020-12-18 17:08:37 +0900
+Processing by DataController#ajax as */*
+  [1m[36mDatum Load (0.5ms)[0m  [1m[34mSELECT "data".* FROM "data"[0m
+  ↳ app/controllers/data_controller.rb:11:in `ajax'
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 35ms (Views: 6.9ms | ActiveRecord: 2.6ms | Allocations: 5946)
+
+
+Started GET "/data/index?name=1" for ::1 at 2020-12-18 17:09:03 +0900
+Processing by DataController#index as HTML
+  Parameters: {"name"=>"1"}
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 28.3ms | Allocations: 2154)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms | Allocations: 6049)
+
+
+Started GET "/data/ajax?name=1" for ::1 at 2020-12-18 17:09:03 +0900
+Processing by DataController#ajax as */*
+  Parameters: {"name"=>"1"}
+  [1m[36mDatum Load (0.3ms)[0m  [1m[34mSELECT "data".* FROM "data" WHERE (name like '%1')[0m
+  ↳ app/controllers/data_controller.rb:11:in `ajax'
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 1110)
+
+
+Started GET "/data/index?name=Taro" for ::1 at 2020-12-18 17:09:17 +0900
+Processing by DataController#index as HTML
+  Parameters: {"name"=>"Taro"}
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 2154)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 43.5ms | ActiveRecord: 0.0ms | Allocations: 6056)
+
+
+Started GET "/data/ajax?name=Taro" for ::1 at 2020-12-18 17:09:17 +0900
+Processing by DataController#ajax as */*
+  Parameters: {"name"=>"Taro"}
+  [1m[36mDatum Load (0.5ms)[0m  [1m[34mSELECT "data".* FROM "data" WHERE (name like '%Taro')[0m
+  ↳ app/controllers/data_controller.rb:11:in `ajax'
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/data/ajax" for ::1 at 2020-12-21 10:59:33 +0900
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/naruseyayoi/RailsReactApp/app/controllers/data_controller.rb:10: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/data_controller.rb:10: syntax error, unexpected end-of-input, expecting end
+app/controllers/data_controller.rb:10: syntax error, unexpected end-of-input, expecting end
+app/controllers/data_controller.rb:10: syntax error, unexpected end-of-input, expecting end
+Started GET "/data/ajax" for ::1 at 2020-12-21 10:59:48 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#ajax as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 209ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 37367)
+
+
+Started GET "/data/ajax" for ::1 at 2020-12-21 11:48:33 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#ajax as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 102ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 12130)
+
+
+Started GET "/data/ajax" for ::1 at 2020-12-21 11:48:34 +0900
+Processing by DataController#ajax as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 82ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 12091)
+
+
+Started GET "/data/index" for ::1 at 2020-12-21 11:48:55 +0900
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/naruseyayoi/RailsReactApp/public/packs
+[Webpacker] Hash: 311db9f804292bd64e39
+Version: webpack 4.44.2
+Time: 1850ms
+Built at: 12/21/2020 11:48:59 AM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js   124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map   139 KiB  application  [emitted] [dev]        application
+     js/dummy_data-f6c80707c2cd0c17c4c3.js   1.1 MiB   dummy_data  [emitted] [immutable]  dummy_data
+ js/dummy_data-f6c80707c2cd0c17c4c3.js.map  1.27 MiB   dummy_data  [emitted] [dev]        dummy_data
+    js/hello_react-b7d0c8fa4ce3681a92cd.js   1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-b7d0c8fa4ce3681a92cd.js.map  1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  1.01 KiB               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint dummy_data = js/dummy_data-f6c80707c2cd0c17c4c3.js js/dummy_data-f6c80707c2cd0c17c4c3.js.map
+Entrypoint hello_react = js/hello_react-b7d0c8fa4ce3681a92cd.js js/hello_react-b7d0c8fa4ce3681a92cd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/dummy_data.jsx] 3.28 KiB {dummy_data} [built]
+[./app/javascript/packs/hello_react.jsx] 1.77 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+  Rendered data/index.html.erb within layouts/application (Duration: 3957.6ms | Allocations: 3496)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3995ms (Views: 3992.7ms | ActiveRecord: 0.0ms | Allocations: 10566)
+
+
+Started GET "/data/ajax" for ::1 at 2020-12-21 11:48:59 +0900
+Processing by DataController#ajax as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 192ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 12100)
+
+
+Started GET "/data/index" for ::1 at 2020-12-21 11:51:33 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 6167)
+
+
+Started GET "/data/ajax" for ::1 at 2020-12-21 11:51:33 +0900
+Processing by DataController#ajax as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 1372ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 2907)
+
+
+Started GET "/data/index" for ::1 at 2020-12-21 11:52:43 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 6157)
+
+
+Started GET "/data/ajax" for ::1 at 2020-12-21 11:52:43 +0900
+Processing by DataController#ajax as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 1008ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 2895)
+
+
+Started GET "/data/index" for ::1 at 2020-12-21 11:52:59 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DataController#index as HTML
+  Rendering data/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered data/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 2154)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 6219)
+
+
+Started GET "/data/ajax" for ::1 at 2020-12-21 11:52:59 +0900
+Processing by DataController#ajax as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 185ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 12458)
+
+
